@@ -62,7 +62,7 @@ quiz-eclair-rn/
 │   ├── package.json
 │   └── .env
 │
-├── frontend/
+├── mobile/
 │   ├── App.jsx
 │   │
 │   ├── screens/
