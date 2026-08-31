@@ -1,0 +1,98 @@
+{
+  "general": [
+    {
+      "id": 1,
+      "question": "What is the capital of Japan?",
+      "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+      "answer": "Tokyo"
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "id": 3,
+      "question": "How many continents are there on Earth?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "id": 4,
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "answer": "Pacific"
+    },
+    {
+      "id": 5,
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "answer": "Carbon Dioxide"
+    }
+  ],
+  "logic": [
+    {
+      "id": 6,
+      "question": "What comes next in the sequence: 2, 4, 8, 16, ?",
+      "options": ["18", "24", "32", "20"],
+      "answer": "32"
+    },
+    {
+      "id": 7,
+      "question": "If all Zips are Zaps, and all Zaps are Zops, are all Zips definitely Zops?",
+      "options": ["Yes", "No", "Not enough info", "Only sometimes"],
+      "answer": "Yes"
+    },
+    {
+      "id": 8,
+      "question": "A farmer has 17 sheep, all but 9 die. How many are left?",
+      "options": ["8", "9", "17", "0"],
+      "answer": "9"
+    },
+    {
+      "id": 9,
+      "question": "What number should replace the question mark: 1, 1, 2, 3, 5, 8, ?",
+      "options": ["11", "12", "13", "10"],
+      "answer": "13"
+    },
+    {
+      "id": 10,
+      "question": "Which word does not belong: Apple, Banana, Carrot, Grape?",
+      "options": ["Apple", "Banana", "Carrot", "Grape"],
+      "answer": "Carrot"
+    }
+  ],
+  "entertainment": [
+    {
+      "id": 11,
+      "question": "Which movie features a character named Jack Dawson?",
+      "options": ["Titanic", "Avatar", "Inception", "Gladiator"],
+      "answer": "Titanic"
+    },
+    {
+      "id": 12,
+      "question": "Which instrument has 88 keys?",
+      "options": ["Guitar", "Piano", "Violin", "Flute"],
+      "answer": "Piano"
+    },
+    {
+      "id": 13,
+      "question": "Which artist is known for the song 'Thriller'?",
+      "options": ["Prince", "Michael Jackson", "Elvis Presley", "Stevie Wonder"],
+      "answer": "Michael Jackson"
+    },
+    {
+      "id": 14,
+      "question": "In which sport would you perform a slam dunk?",
+      "options": ["Volleyball", "Basketball", "Tennis", "Football"],
+      "answer": "Basketball"
+    },
+    {
+      "id": 15,
+      "question": "Which animated film features a snowman named Olaf?",
+      "options": ["Frozen", "Moana", "Tangled", "Encanto"],
+      "answer": "Frozen"
+    }
+  ]
+}
