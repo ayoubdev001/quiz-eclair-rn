@@ -6,7 +6,8 @@ export default function ResultCard({ score, total, onRestart }) {
       <Text style={styles.title}>Quiz Complete!</Text>
 
       <Text style={styles.score}>
-        Score: {score} / {total} </Text>
+        Score: {score} / {total} 
+        </Text>
 
       <Pressable style={styles.button} onPress={onRestart}>
         <Text style={styles.buttonText}>Try Again</Text>
@@ -17,17 +18,22 @@ export default function ResultCard({ score, total, onRestart }) {
 
 const styles = StyleSheet.create({
   wrapper: {
-    width: "100%",
-    alignItems: "center",
+    width: "80%",
+    alignSelf: "center",
     marginTop: 40,
+    padding: 20,
+    backgroundColor: "#211775", 
+    borderRadius:30,
   },
   title: {
+    alignSelf: "center",
     color:"white",
     fontSize: 26,
     fontWeight: "bold",
     marginBottom: 10,
   },
   score: {
+    alignSelf: "center",
     color:"white",
     fontSize: 20,
     marginBottom: 25,
@@ -36,9 +42,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#0011f8",
     paddingVertical: 12,
     paddingHorizontal: 24,
-    borderRadius: 10,
+    borderRadius: 20,
   },
   buttonText: {
+    alignSelf: "center",
     color: "#fdfcfc",
     fontSize: 18,
     fontWeight: "600",

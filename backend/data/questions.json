@@ -39,11 +39,11 @@
       "answer": "32"
     },
     {
-      "id": 7,
-      "question": "If all Zips are Zaps, and all Zaps are Zops, are all Zips definitely Zops?",
-      "options": ["Yes", "No", "Not enough info", "Only sometimes"],
-      "answer": "Yes"
-    },
+  "id": 7,
+  "question": "If all Cats are Dogs, and all Dogs are Birds, are all Cats definitely Birds?",
+  "options": ["Yes", "No", "Not enough info", "Only sometimes"],
+  "answer": "Yes"
+},
     {
       "id": 8,
       "question": "A farmer has 17 sheep, all but 9 die. How many are left?",
@@ -63,7 +63,7 @@
       "answer": "Carrot"
     }
   ],
-  "entertainment ": [
+  "entertainment": [
     {
       "id": 11,
       "question": "Which movie features a character named Jack Dawson?",
@@ -93,6 +93,134 @@
       "question": "Which animated film features a snowman named Olaf?",
       "options": ["Frozen", "Moana", "Tangled", "Encanto"],
       "answer": "Frozen"
+    }
+  ],
+  "football": [
+    {
+      "id": 16,
+      "question": "How many players are on a football team on the field at once?",
+      "options": ["9", "10", "11", "12"],
+      "answer": "11"
+    },
+    {
+      "id": 17,
+      "question": "Which country won the first FIFA World Cup in 1930?",
+      "options": ["Brazil", "Uruguay", "Argentina", "Italy"],
+      "answer": "Uruguay"
+    },
+    {
+      "id": 18,
+      "question": "How many minutes long is a standard football match (excluding stoppage time)?",
+      "options": ["80", "90", "100", "120"],
+      "answer": "90"
+    },
+    {
+      "id": 19,
+      "question": "Which player has won the most Ballon d'Or awards?",
+      "options": ["Cristiano Ronaldo", "Lionel Messi", "Pele", "Zinedine Zidane"],
+      "answer": "Lionel Messi"
+    },
+    {
+      "id": 20,
+      "question": "What color card results in a player being sent off?",
+      "options": ["Yellow", "Blue", "Red", "Green"],
+      "answer": "Red"
+    }
+  ],
+  "movies": [
+    {
+      "id": 21,
+      "question": "Which movie won the Academy Award for Best Picture in 1994?",
+      "options": ["Pulp Fiction", "Forrest Gump", "The Shawshank Redemption", "Speed"],
+      "answer": "Forrest Gump"
+    },
+    {
+      "id": 22,
+      "question": "Who directed the movie 'Jaws'?",
+      "options": ["George Lucas", "Steven Spielberg", "Martin Scorsese", "James Cameron"],
+      "answer": "Steven Spielberg"
+    },
+    {
+      "id": 23,
+      "question": "In 'The Wizard of Oz', what color are Dorothy's slippers?",
+      "options": ["Silver", "Red", "Gold", "Blue"],
+      "answer": "Red"
+    },
+    {
+      "id": 24,
+      "question": "Which actor played the character Jack Sparrow?",
+      "options": ["Orlando Bloom", "Johnny Depp", "Jack Black", "Ewan McGregor"],
+      "answer": "Johnny Depp"
+    },
+    {
+      "id": 25,
+      "question": "What is the highest-grossing film of all time (unadjusted for inflation) as of its release?",
+      "options": ["Titanic", "Avengers: Endgame", "Avatar", "Star Wars"],
+      "answer": "Avatar"
+    }
+  ],
+  "history": [
+    {
+      "id": 26,
+      "question": "In which year did World War II end?",
+      "options": ["1943", "1945", "1947", "1950"],
+      "answer": "1945"
+    },
+    {
+      "id": 27,
+      "question": "Who was the first President of the United States?",
+      "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+      "answer": "George Washington"
+    },
+    {
+      "id": 28,
+      "question": "Which ancient civilization built the pyramids of Giza?",
+      "options": ["Romans", "Greeks", "Egyptians", "Mayans"],
+      "answer": "Egyptians"
+    },
+    {
+      "id": 29,
+      "question": "The Berlin Wall fell in which year?",
+      "options": ["1985", "1987", "1989", "1991"],
+      "answer": "1989"
+    },
+    {
+      "id": 30,
+      "question": "Who was known as the 'Maid of Orleans'?",
+      "options": ["Marie Antoinette", "Joan of Arc", "Catherine the Great", "Cleopatra"],
+      "answer": "Joan of Arc"
+    }
+  ],
+  "geography": [
+    {
+      "id": 31,
+      "question": "What is the longest river in the world?",
+      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "answer": "Nile"
+    },
+    {
+      "id": 32,
+      "question": "Which country has the largest population in the world?",
+      "options": ["United States", "India", "China", "Indonesia"],
+      "answer": "India"
+    },
+    {
+      "id": 33,
+      "question": "What is the smallest country in the world by area?",
+      "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+      "answer": "Vatican City"
+    },
+    {
+      "id": 34,
+      "question": "Which desert is the largest in the world?",
+      "options": ["Sahara", "Gobi", "Antarctic", "Arabian"],
+      "answer": "Antarctic"
+    },
+    {
+      "id": 35,
+      "question": "Mount Everest is located on the border of Nepal and which other country?",
+      "options": ["India", "Bhutan", "China", "Pakistan"],
+      "answer": "China"
     }
   ]
 }

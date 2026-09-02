@@ -5,51 +5,81 @@ export default function AnswerFeedback({ result, onNext }) {
 
   return (
     <View style={styles.wrapper}>
-      <View style={[styles.feedbackBox, isCorrect ? styles.correct : styles.wrong]}>
-        <Text style={styles.text}>
-          {isCorrect ? "Correct!" : "Wrong!"}
+      <View style={[styles.card, isCorrect ? styles.correct : styles.wrong]}>
+        <Text style={styles.title}>
+          {isCorrect ? "CORRECT!" : "OOPS!"}
         </Text>
-      </View>
 
-      <Pressable onPress={onNext} style={styles.nextButton}>
-        <Text style={styles.buttonText}>Next Question</Text>
-      </Pressable>
+        <Text style={styles.subtitle}>
+          {isCorrect
+            ? "Awesome! Let's move to the next one!"
+            : "That wasn't it — you'll get the next one!"}
+        </Text>
+
+        <Pressable onPress={onNext} style={styles.button}>
+          <Text
+            style={[
+              styles.buttonText,
+              isCorrect ? styles.correctText : styles.wrongText,
+            ]}
+          >
+            NEXT QUESTION
+          </Text>
+        </Pressable>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   wrapper: {
-    marginTop: 15,
+    width: "100%",
+    paddingHorizontal:15,
     alignItems: "center",
+
   },
-  feedbackBox: {
-    padding: 15,
-    borderRadius: 10,
+  card: {
+    width: "100%",
+    borderRadius: 20,
+    padding: 20,
     alignItems: "center",
-    width: "100",
   },
   correct: {
-    backgroundColor: "#4CAF50",
+    backgroundColor: "#3DCB7A",
   },
   wrong: {
-    backgroundColor: "#F44336",
+    backgroundColor: "#E8446B",
   },
-  text: {
+  title: {
     color: "#fff",
-    fontSize: 18,
-    fontWeight: "bold",
+    fontSize: 22,
+    fontWeight: "800",
+    letterSpacing: 1,
+    marginBottom: 6,
   },
-  nextButton: {
-    backgroundColor: "#0011f8",
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderRadius: 8,
-    marginTop: 10,
+  subtitle: {
+    color: "#fff",
+    fontSize: 14,
+    opacity: 0.9,
+    textAlign: "center",
+    marginBottom: 18,
+  },
+  button: {
+    backgroundColor: "#fff",
+    width: "100%",
+    paddingVertical: 12,
+    borderRadius: 10,
+    alignItems: "center",
   },
   buttonText: {
-    color: "#fdfcfc",
-    fontSize: 16,
-    fontWeight: "600",
+    fontSize: 14,
+    fontWeight: "700",
+    letterSpacing: 0.5,
+  },
+  correctText: {
+    color: "#3DCB7A",
+  },
+  wrongText: {
+    color: "#E8446B",
   },
 });

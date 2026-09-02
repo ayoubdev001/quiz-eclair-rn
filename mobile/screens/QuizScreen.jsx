@@ -65,7 +65,7 @@ export default function QuizScreen() {
   if (loading) {
     return (
       <View>
-        <Text>Loading...</Text>
+        <Text style={{color:"white", alignSelf:"center"}}>Loading...</Text>
       </View>
     );
   }

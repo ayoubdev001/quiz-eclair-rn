@@ -14,14 +14,14 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor:"#0f046d",
+    backgroundColor:"#2c2096",
     flex: 1,
     
    
     
   },
   logo:{
-    margin:40,
+    margin:30,
     height:150,
     width:250,
     alignSelf:"center",

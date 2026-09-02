@@ -1,6 +1,9 @@
 import { View, Text, Pressable, StyleSheet } from "react-native";
+import { useState } from "react";
 
 export default function QuestionCard({ question, onAnswer, disabled }) {
+  const [pressedOption, setPressedOption] = useState(null);
+
   return (
     <View style={styles.container}>
       <Text style={styles.question}>
@@ -10,10 +13,16 @@ export default function QuestionCard({ question, onAnswer, disabled }) {
       {question.options.map((option) => (
         <Pressable
           key={option}
-          style={styles.answer}
-          onPress={() => onAnswer(option)}
+          style={[
+            styles.answer,
+            pressedOption === option && styles.answerPressed,
+          ]}
+          onPress={() => {
+            setPressedOption(option);
+            onAnswer(option);
+          }}
           disabled={disabled}
-          >
+        >
           <Text style={styles.answerText}>{option}</Text>
         </Pressable>
       ))}
@@ -25,19 +34,18 @@ const styles = StyleSheet.create({
   container: {
     width: "100%",
     marginTop: 10,
-    padding:19,  
+    padding: 19,
   },
 
   question: {
-    color:"white",
+    color: "white",
     fontSize: 22,
     fontWeight: "bold",
     marginBottom: 20,
-    
   },
 
   answer: {
-    backgroundColor: "#eee",
+    backgroundColor: "#fffdfd",
     padding: 15,
     borderRadius: 10,
     marginBottom: 10,
@@ -45,5 +53,9 @@ const styles = StyleSheet.create({
 
   answerText: {
     fontSize: 18,
+  },
+
+  answerPressed: {
+    backgroundColor: "#cfcece",
   },
 });
