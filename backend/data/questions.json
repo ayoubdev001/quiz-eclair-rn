@@ -39,11 +39,11 @@
       "answer": "32"
     },
     {
-  "id": 7,
-  "question": "If all Cats are Dogs, and all Dogs are Birds, are all Cats definitely Birds?",
-  "options": ["Yes", "No", "Not enough info", "Only sometimes"],
-  "answer": "Yes"
-},
+      "id": 7,
+      "question": "If all Cats are Dogs, and all Dogs are Birds, are all Cats definitely Birds?",
+      "options": ["Yes", "No", "Not enough info", "Only sometimes"],
+      "answer": "Yes"
+    },
     {
       "id": 8,
       "question": "A farmer has 17 sheep, all but 9 die. How many are left?",
@@ -79,7 +79,12 @@
     {
       "id": 13,
       "question": "Which artist is known for the song 'Thriller'?",
-      "options": ["Prince", "Michael Jackson", "Elvis Presley", "Stevie Wonder"],
+      "options": [
+        "Prince",
+        "Michael Jackson",
+        "Elvis Presley",
+        "Stevie Wonder"
+      ],
       "answer": "Michael Jackson"
     },
     {
@@ -117,7 +122,12 @@
     {
       "id": 19,
       "question": "Which player has won the most Ballon d'Or awards?",
-      "options": ["Cristiano Ronaldo", "Lionel Messi", "Pele", "Zinedine Zidane"],
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Pele",
+        "Zinedine Zidane"
+      ],
       "answer": "Lionel Messi"
     },
     {
@@ -131,13 +141,23 @@
     {
       "id": 21,
       "question": "Which movie won the Academy Award for Best Picture in 1994?",
-      "options": ["Pulp Fiction", "Forrest Gump", "The Shawshank Redemption", "Speed"],
+      "options": [
+        "Pulp Fiction",
+        "Forrest Gump",
+        "The Shawshank Redemption",
+        "Speed"
+      ],
       "answer": "Forrest Gump"
     },
     {
       "id": 22,
       "question": "Who directed the movie 'Jaws'?",
-      "options": ["George Lucas", "Steven Spielberg", "Martin Scorsese", "James Cameron"],
+      "options": [
+        "George Lucas",
+        "Steven Spielberg",
+        "Martin Scorsese",
+        "James Cameron"
+      ],
       "answer": "Steven Spielberg"
     },
     {
@@ -149,7 +169,12 @@
     {
       "id": 24,
       "question": "Which actor played the character Jack Sparrow?",
-      "options": ["Orlando Bloom", "Johnny Depp", "Jack Black", "Ewan McGregor"],
+      "options": [
+        "Orlando Bloom",
+        "Johnny Depp",
+        "Jack Black",
+        "Ewan McGregor"
+      ],
       "answer": "Johnny Depp"
     },
     {
@@ -169,7 +194,12 @@
     {
       "id": 27,
       "question": "Who was the first President of the United States?",
-      "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+      "options": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "Benjamin Franklin"
+      ],
       "answer": "George Washington"
     },
     {
@@ -187,7 +217,12 @@
     {
       "id": 30,
       "question": "Who was known as the 'Maid of Orleans'?",
-      "options": ["Marie Antoinette", "Joan of Arc", "Catherine the Great", "Cleopatra"],
+      "options": [
+        "Marie Antoinette",
+        "Joan of Arc",
+        "Catherine the Great",
+        "Cleopatra"
+      ],
       "answer": "Joan of Arc"
     }
   ],
@@ -221,6 +256,48 @@
       "question": "Mount Everest is located on the border of Nepal and which other country?",
       "options": ["India", "Bhutan", "China", "Pakistan"],
       "answer": "China"
+    }
+  ],
+    "extreme logic": [
+    {
+      "id": 36,
+      "question": "What comes next in the sequence: 1, 11, 21, 1211, 111221, ?",
+      "options": ["312211", "132231", "123211", "211213"],
+      "answer": "312211"
+    },
+    {
+      "id": 37,
+      "question": "On an island, knights always tell the truth and knaves always lie. Person A says: 'At least one of us is a knave.' What are A and B?",
+      "options": [
+        "A is a knight, B is a knave",
+        "A is a knave, B is a knight",
+        "Both are knights",
+        "Both are knaves"
+      ],
+      "answer": "A is a knight, B is a knave"
+    },
+    {
+      "id": 38,
+      "question": "What comes next in the sequence: 2, 3, 5, 9, 17, 33, ?",
+      "options": ["63", "64", "65", "66"],
+      "answer": "65"
+    },
+    {
+      "id": 39,
+      "question": "A woman has two children. At least one is a boy born on a Tuesday. What is the probability both children are boys?",
+      "options": ["1/2", "1/3", "13/27", "1/4"],
+      "answer": "13/27"
+    },
+    {
+      "id": 40,
+      "question": "All Blorps are Zeeks. No Zeeks are Warps. Some Warps are Ranks. Which statement must be true?",
+      "options": [
+        "No Blorps are Warps",
+        "Some Blorps are Warps",
+        "All Ranks are Blorps",
+        "No Ranks are Zeeks"
+      ],
+      "answer": "No Blorps are Warps"
     }
   ]
 }

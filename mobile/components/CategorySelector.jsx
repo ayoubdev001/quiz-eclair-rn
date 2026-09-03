@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
   wrapper: {
     width: "100%",
     alignItems: "center",
-    marginTop: 20,
   },
   title: {
     color:"white",
@@ -36,7 +35,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 10,
     marginBottom: 10,
-    width: "90%",
+    width: "70%",
     alignItems: "center",
   },
   categoryText: {

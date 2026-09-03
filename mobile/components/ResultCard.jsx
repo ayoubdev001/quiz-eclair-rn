@@ -6,8 +6,7 @@ export default function ResultCard({ score, total, onRestart }) {
       <Text style={styles.title}>Quiz Complete!</Text>
 
       <Text style={styles.score}>
-        Score: {score} / {total} 
-        </Text>
+        Score: {score} / {total} </Text>
 
       <Pressable style={styles.button} onPress={onRestart}>
         <Text style={styles.buttonText}>Try Again</Text>

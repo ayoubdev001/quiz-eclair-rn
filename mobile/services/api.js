@@ -12,7 +12,8 @@ export async function getCategories() {
 }
 
 export async function getQuestions(category) {
-    const response = await fetch(`${API_URL}/questions/${category}`);
+    const response = await fetch(
+        `${API_URL}/questions/${category}`);
     if(!response.ok) {
         throw new Error("Failed to fetch questions");
     }
